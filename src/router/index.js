@@ -6,26 +6,6 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
-  },
-  {
-    path: '/dump',
-    name: 'dump',
-    component: () => import('../views/DumpView.vue')
-  },
-  {
-    path: '/next-contest',
-    name: 'next-contest',
-    component: () => import('../views/NextContest.vue')
-  },
-  {
-    path: '/test',
-    name: 'test',
-    component: () => import('../views/TestView.vue')
-  },
-  {
-    path: '/update',
-    name: 'test-update',
-    component: () => import('../views/TestUpdate.vue')
   }
 ]
 
