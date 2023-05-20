@@ -6,6 +6,11 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/api',
+    name: 'api',
+    component: () => import('../views/MyApi.vue')
   }
 ]
 
